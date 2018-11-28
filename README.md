@@ -1,5 +1,6 @@
 # wechat_analysis_wxpy
 通过python，连接到微信账号，收集好友性别、城市、个性签名等公开信息，使用 Python 进行数据统计与分析，得到你专属的朋友圈的分析报告！
+
 博客地址：https://blog.csdn.net/m511655654/article/details/82752396 
 
 # 1、准备工作
