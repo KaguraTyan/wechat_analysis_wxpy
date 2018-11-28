@@ -20,13 +20,14 @@
 
 wxpy的一些常见的场景
 
-> 控制路由器、智能家居等具有开放接口的玩意儿
-> 运行脚本时自动把日志发送到你的微信
-> 加群主为好友，自动拉进群中
-> 跨号或跨群转发消息
-> 自动陪人聊天
-> 逗人玩
+- 控制路由器、智能家居等具有开放接口的玩意儿
+- 运行脚本时自动把日志发送到你的微信
+- 加群主为好友，自动拉进群中
+- 跨号或跨群转发消息
+- 自动陪人聊天
+- 逗人玩
 ...
+
 总而言之，可用来实现各种微信个人号的自动化操作
 
 # 1.3 wxpy库安装
@@ -36,23 +37,23 @@ wxpy 支持 Python 3.4-3.6，以及 2.7 版本
 
 1、从 PYPI 官方源下载安装 (在国内可能比较慢或不稳定):
 ```sh
-$ pip install -U wxpy
+pip install -U wxpy
 ```
 
 2、从豆瓣 PYPI 镜像源下载安装 (推荐国内用户选用):
 ```sh
-$ pip install -U wxpy -i "https://pypi.doubanio.com/simple/"
+pip install -U wxpy -i "https://pypi.doubanio.com/simple/"
 ```
 # 1.4 登录微信
 使用bot()登录微信
 ```sh
 # 导入模块
-$ from wxpy import *
+from wxpy import *
 # 初始化机器人，扫码登陆
-$ bot = Bot()
+bot = Bot()
 # 获取所有好友
-$ my_friends = bot.friends()
-$ print(type(my_friends))
+my_friends = bot.friends()
+print(type(my_friends))
 ```
 输出结果
 ```sh
